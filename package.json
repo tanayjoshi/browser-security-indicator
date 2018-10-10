@@ -1,0 +1,35 @@
+{
+  "name": "Security Bar",
+  "title": "Security Bar",
+  "description": "Security Bar changes Firefox's theme according to the security status of a website.",
+  "author": "tanjos",
+  "license": "Ox",
+  "version": "2.3.2",
+  "main" : "lib/main.js",
+  "icon": "data/img/icon/black-icon.png",
+  "permissions": {
+    "private-browsing": true,
+    "multiprocess" : true
+  },
+  "preferences": [{
+    "name": "insecureTheme",
+    "title": "Theme for insecure pages",
+    "description": "Choose the theme for insecure pages (HTTP). Default: White",
+    "type": "radio",
+    "value": "white",
+    "options" : [
+      {
+        "value": "white",
+        "label": "White"
+      },
+      {
+        "value": "red",
+        "label": "Red"
+      },
+      {
+        "value": "default",
+        "label": "Default"
+      }
+    ]
+  }]
+}

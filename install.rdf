@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+    <Description about="urn:mozilla:install-manifest">
+          <em:type>2</em:type>
+          <em:bootstrap>true</em:bootstrap>
+          <em:unpack>false</em:unpack>
+          <em:version>1.4</em:version>
+          <em:name>Security Bar</em:name>
+          <em:description>Security Bar changes Firefox&apos;s theme according to the security status of a website.</em:description>
+          <em:creator>tanjos</em:creator>
+          <em:multiprocessCompatible>true</em:multiprocessCompatible>
+    </Description>
+
+</RDF>
